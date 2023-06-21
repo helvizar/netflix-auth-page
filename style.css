@@ -318,38 +318,6 @@ a {
     margin-top: 3rem;
   }
 
-  #footer-form {
-    margin-top: 2rem;
-  }
   
-  #footer-form input {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    width: 50%;
-    background-color: rgba(64, 64, 64, 1);
-    border: none;
-  }
-  
-  #check {
-    display: block;
-    margin-bottom: 1rem;
-  }
-  
-  #submit-form {
-    background-color: rgba(220, 38, 38, 1);
-    border: none;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-  }
-  
-  #submit-form:hover {
-    background-color: rgb(185, 28, 28, 1);
-  }
-  
-  #warning {
-    color: red;
-    margin-top: 1rem;
-  }
   
   
