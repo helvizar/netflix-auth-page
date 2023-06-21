@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://cdn.iconscout.com/icon/free/png-512/free-netflix-3521600-2945044.png"
+      type="image/icon type"
+    />
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <div class="overlay">
+          <nav class="navbar">
+            <img
+              src="https://www.edigitalagency.com.au/wp-content/uploads/netflix-logo-png-large.png"
+              alt="Logo"
+              class="logo"
+            />
+          </nav>
+          <div class="form-container">
+            <div class="forms">
+              <h2 class="title">Sign In</h2>
+              <div class="user-data">
+                <div class="input-group" id="username-group">
+                  <input class="input-field" type="text" id="name" value="" />
+                  <label class="input-label" for="name">Username</label>
+                </div>
+                <div class="input-group">
+                  <input class="input-field" type="email" id="email" value="" />
+                  <label class="input-label" for="email">Email</label>
+                </div>
+                <div class="input-group">
+                  <input
+                    class="input-field"
+                    type="password"
+                    id="password"
+                    value=""
+                  />
+                  <label class="input-label" for="password">Password</label>
+                </div>
+              </div>
+              <button class="button" onclick="login()">Login</button>
+              <p class="account">
+                New to Netflix?
+                <span onclick="toggleVariant()">Create an account</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-left">
+          <p id="description">
+            Netflix is a popular streaming platform that offers thousands of
+            movies, TV shows, and original content across various genres. With
+            easy access through internet-connected devices, Netflix provides
+            unlimited entertainment experiences to millions of viewers
+            worldwide.
+          </p>
+        </div>
+        <div class="footer-right">
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+          </ul>
+          <p class="footer-year">
+            &copy; 2023
+            <span>
+              <a href="https://linkedin.com/in/helvizar">Helvizar</a>
+            </span>
+            x
+            <span>
+              <a id="link" href="https://skilvul.com">Skilvul</a>
+            </span>
+          </p>
+        </div>
+      </div>
+      <p class="blueray">Pengajuan Blueray:</p>
+      <form id="footer-form">
+        <input type="text" id="name" placeholder="Nama" />
+        <input type="text" id="city" placeholder="Kota" />
+        <input type="email" id="email" placeholder="Email" />
+        <input type="number" id="zip-code" placeholder="Kode Pos" />
+        <!-- <div class="checkbox-wrapper">
+          <input type="checkbox" id="status" />
+          <label for="status"
+            >Dengan ini saya menyatakan data yang diisi pada form ini adalah benar
+          dan telah sesuai</a></label
+          >
+        </div> -->
+        <input type="checkbox" id="status" />
+        <label for="check" id="check"
+          >Dengan ini saya menyatakan data yang diisi pada form ini adalah benar
+          dan telah sesuai</label
+        >
+        <button type="submit" id="submit-form">Submit</button>
+        <div id="warning"></div>
+      </form>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
